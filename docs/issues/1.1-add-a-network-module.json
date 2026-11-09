@@ -1,0 +1,18 @@
+{
+  "rank": "1.1",
+  "title": "Add a network module",
+  "context": "The module catalog starts with storage and compute.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add a reusable VPC/network module.",
+    "expected_outcome": "A consumer can compose network and service modules.",
+    "acceptance_criteria": [
+      "Module validates",
+      "Inputs are documented"
+    ]
+  },
+  "attempts": []
+}

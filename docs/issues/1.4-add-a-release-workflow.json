@@ -1,0 +1,18 @@
+{
+  "rank": "1.4",
+  "title": "Add a release workflow",
+  "context": "Modules are tag-only.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add a tag-triggered validation and release workflow.",
+    "expected_outcome": "A version tag validates the module set.",
+    "acceptance_criteria": [
+      "Tag validation runs",
+      "Release notes are generated"
+    ]
+  },
+  "attempts": []
+}

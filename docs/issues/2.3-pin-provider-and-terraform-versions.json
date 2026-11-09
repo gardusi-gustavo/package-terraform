@@ -1,0 +1,18 @@
+{
+  "rank": "2.3",
+  "title": "Pin provider and Terraform versions",
+  "context": "Version drift can break consumers.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Pin required versions per module.",
+    "expected_outcome": "Every module declares compatible versions.",
+    "acceptance_criteria": [
+      "Versions are declared",
+      "Upgrade policy is documented"
+    ]
+  },
+  "attempts": []
+}

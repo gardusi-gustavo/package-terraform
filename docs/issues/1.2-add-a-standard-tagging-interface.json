@@ -1,0 +1,18 @@
+{
+  "rank": "1.2",
+  "title": "Add a standard tagging interface",
+  "context": "Modules use inconsistent tags.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Define a shared tags input and defaults.",
+    "expected_outcome": "Every module accepts the same tag shape.",
+    "acceptance_criteria": [
+      "Tags are optional",
+      "Defaults are documented"
+    ]
+  },
+  "attempts": []
+}

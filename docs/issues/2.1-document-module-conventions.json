@@ -1,0 +1,18 @@
+{
+  "rank": "2.1",
+  "title": "Document module conventions",
+  "context": "Contributors need naming and version rules.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Document module layout, inputs, outputs, and versioning.",
+    "expected_outcome": "New modules follow one convention.",
+    "acceptance_criteria": [
+      "Naming is documented",
+      "Provider versions are pinned"
+    ]
+  },
+  "attempts": []
+}

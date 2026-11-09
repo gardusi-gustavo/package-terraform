@@ -1,0 +1,18 @@
+{
+  "rank": "2.2",
+  "title": "Add tflint checks",
+  "context": "The repository only validates syntax.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Run tflint in CI with the shared config.",
+    "expected_outcome": "Lint failures are visible.",
+    "acceptance_criteria": [
+      "tflint runs in CI",
+      "The config is pinned"
+    ]
+  },
+  "attempts": []
+}
